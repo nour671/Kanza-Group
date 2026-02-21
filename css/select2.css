@@ -1,0 +1,51 @@
+/* تخصيص Select2 */
+.select2-container {
+    min-width: 180px !important;
+    border-right: 1px solid #eee;
+}
+
+.select2-container .select2-selection {
+    height: 56px !important;
+    border: none !important;
+    background: white !important;
+    border-radius: 0 !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 56px !important;
+    color: #2A2A2A !important;
+    font-family: 'Cairo', sans-serif !important;
+    padding-right: 20px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 56px !important;
+    right: 10px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #b71800 transparent transparent transparent !important;
+}
+
+/* تخصيص القائمة المنسدلة */
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #fff9f8 !important;
+    color: #b71800 !important;
+}
+
+.select2-container--default .select2-results__option[aria-selected=true] {
+    background-color: #ffefec !important;
+    color: #b71800 !important;
+}
+
+.select2-container--open .select2-dropdown {
+    border-color: #eee !important;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1) !important;
+    border-radius: 0 0 10px 10px !important;
+}
+
+/* التأثير عند hover */
+.select2-container--default .select2-results__option:hover {
+    background-color: #fff9f8 !important;
+    color: #b71800 !important;
+}

@@ -1,0 +1,169 @@
+
+      
+        /* :root {
+            --primary-color: #15a637;
+            --primary-dark: #005e16;
+            --primary-light: #dafee2;
+        } */
+        :root {
+            --primary-color: #15a637;
+            --primary-dark: #005e16;
+            --primary-light: #dafee2;
+        }
+
+        :root {
+    --primary-color: #0F4793;
+    --primary-dark: #0f045e;
+    --primary-light: #b0d0ff;
+    --secondary-color: #FF9800;
+    --light-bg: #F5F5F5;
+    --dark-color: #333333;
+    --white: #FFFFFF;
+}
+        
+        .pesticide-header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://images.unsplash.com/photo-1586769852044-692a501d9b61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80');
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .pesticide-badge {
+            background-color: var(--primary-color) !important;
+        }
+        
+        .pesticide-btn {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            color: white;
+        }
+        
+        .pesticide-btn:hover {
+            background-color: var(--primary-dark);
+            border-color: var(--primary-dark);
+        }
+        
+        .pesticide-card {
+            border-top: 3px solid var(--primary-color);
+        }
+        
+        .pesticide-feature {
+            background-color: var(--primary-light);
+            border-right: 3px solid var(--primary-color);
+        }
+        
+        .filter-btn.active {
+            background-color: var(--primary-color) !important;
+            color: white !important;
+        }
+        
+      
+        .product-image-container {
+            height: 200px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f8f9fa;
+        }
+        
+        .product-image-container img {
+            max-height: 100%;
+            width: 100%;
+            transition: transform 0.3s ease;
+        }
+        
+        .product-card:hover .product-image-container img {
+            transform: scale(1.05);
+        }
+        
+        .product-details {
+            min-height: 120px;
+        }
+        
+        .quantity-controls {
+            width: 120px;
+        }
+        
+        .quantity-controls .btn {
+            padding: 0.25rem 0.5rem;
+        }
+        
+        .product-tabs .nav-link {
+            color: #495057;
+        }
+        
+        .product-tabs .nav-link.active {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            font-weight: bold;
+        }
+        
+        .safety-level {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+        
+        .safety-level.high {
+            background-color: #d4e5ed;
+            color: var(--primary-dark);
+        }
+        
+        .safety-level.medium {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+        
+        .safety-level.low {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        
+       
+        .hover-lift {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1) !important;
+        }
+        
+       
+        .best-seller {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 10;
+            background-color: #ffc107;
+            color: #212529;
+            font-weight: bold;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+        
+        
+        .discount-badge {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: bold;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+
+
+    .pesticide-feature {
+        background-color: #daf1fe;
+        border-right: 3px solid #1546a6;
+    }
+
+    

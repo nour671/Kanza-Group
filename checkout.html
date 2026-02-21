@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إتمام الشراء - مجموعة كنزا</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="./img/logo-kanza.png">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Arabic -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+     <link rel="stylesheet" href="css/kanza.css">
+     <link rel="stylesheet" href="css/checkout.css">
+
+</head>
+<body>
+        <!-- Top Header - -->
+    <div class="top-header d-none d-lg-block py-2 text-success">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-md-4">
+            <div
+              class="d-flex align-items-center justify-content-center justify-content-md-start"
+            >
+              <span class="me-3">
+                <i class="fas fa-phone-alt me-1"></i> 0233053601
+              </span>
+              <span>
+                <i class="fas fa-envelope me-1"></i> info@kanzagroup.com.eg
+              </span>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="header-promo small">
+              <i class="fas fa-truck me-1"></i> توصيل مجاني للطلبات فوق 1000
+              جنيه
+            </div>
+          </div>
+          <div class="col-md-4 text-center text-md-end">
+            <div class="social-icons me-lg-5 pe-lg-5">
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav
+      class="navbar navbar1 logo-section navbar-expand-lg navbar-light bg-white sticky shadow-sm py-0"
+      style="z-index: 99"
+    >
+      <div class="container">
+        <!-- Logo Section -->
+
+        <div class="logo-section py-0 d-flex align-items-center">
+          <a class="navbar-brand m-0 p-0" href="index.html">
+            <img src="./img/logo-kanza.png" alt="Kanza Group" />
+          </a>
+          <div class="brand-info me-4 d-none d-lg-block">
+            <h6 class="mb-0 text-success fw-bold">مجموعة كنزا</h6>
+            <small class="text-muted">حلول زراعية متكاملة منذ 2005</small>
+          </div>
+        </div>
+        <form class="d-flex search-form mt-0">
+          <div class="input-group">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="ابحث عن منتج..."
+            />
+
+            <button class="btn btn-success" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Main Navigation -->
+    <nav
+      class="navbar navbar2 navbar-expand-lg navbar-light bg-white sticky-top shadow-sm py-3"
+      style="z-index: 90"
+    >
+      <div class="container">
+        <!-- User Actions -->
+
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="container-user d-block d-lg-none d-flex align-items-center">
+          <div class="dropdown me-3">
+            <a
+              href="#"
+              class="text-dark position-relative"
+              data-bs-toggle="dropdown"
+            >
+              <i class="fas fa-shopping-cart fs-5"></i>
+              <span class="cart-count">3</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end cart-dropdown">
+              <div class="cart-items">
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product1.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فيلد اب 48</h6>
+                    <small class="text-muted">1 × 150 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product2.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فينوزون 50% EC</h6>
+                    <small class="text-muted">2 × 200 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between mb-3">
+                <strong>الإجمالي:</strong>
+                <strong class="text-success">550 ج.م</strong>
+              </div>
+              <div class="d-grid gap-2">
+                <a href="cart.html" class="btn btn-success">عرض السلة</a>
+                <a href="checkout.html" class="btn btn-outline-success"
+                  >الدفع</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="dropdown me-3">
+            <a
+              href="#"
+              class="text-dark position-relative"
+              data-bs-toggle="dropdown"
+            >
+              <i class="fas fa-heart fs-5"></i>
+              <span class="cart-count">2</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end cart-dropdown">
+              <div class="cart-items">
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product1.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فيلد اب 48</h6>
+                    <small class="text-muted">1 × 150 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product2.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فينوزون 50% EC</h6>
+                    <small class="text-muted">2 × 200 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+              </div>
+
+              <div class="d-grid gap-2">
+                <a href="wishlist.html" class="btn btn-success">عرض المفضلة</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="dropdown me-3">
+            <a href="#" class="text-dark" data-bs-toggle="dropdown">
+              <i class="fas fa-user fs-5"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end">
+              <a class="dropdown-item" href="login.html">تسجيل الدخول</a>
+              <a class="dropdown-item" href="register.html">إنشاء حساب</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="profile.html">حسابي</a>
+              <a class="dropdown-item" href="orders.html">طلباتي</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main Menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-content w-100">
+            <ul class="navbar-nav me-auto main-menu">
+              <li class="nav-item">
+                <a class="nav-link active" href="index-kanza.html">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">من نحن</a>
+              </li>
+
+              <!-- مبيدات -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="pesticides.html" data-bs-toggle="dropdown">
+                  مبيدات زراعية
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="pesticides-products.html" >مبيدات حشرية</a></li>
+                  <li><a class="dropdown-item" href="#">مبيدات فطرية</a></li>
+                  <li><a class="dropdown-item" href="#">مبيدات قوارض</a></li>
+                  <li><a class="dropdown-item" href="#">مبيدات التربة</a></li>
+                  <li><a class="dropdown-item" href="#">مبيدات نيماتودية</a></li>
+                </ul>
+              </li>
+
+              <!-- صحة عامة -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  مبيدات الصحة العامة
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">مكافحة حشرات</a></li>
+                  <li><a class="dropdown-item" href="#">مكافحة قوارض</a></li>
+                  <li><a class="dropdown-item" href="#">مطهرات</a></li>
+                </ul>
+              </li>
+
+              <!-- أسمدة -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  أسمدة
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">أسمدة عضوية</a></li>
+                  <li><a class="dropdown-item" href="#">أسمدة كيماوية</a></li>
+                  <li><a class="dropdown-item" href="#">محفزات نمو</a></li>
+                </ul>
+              </li>
+
+              <!-- بذور -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  بذور
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">خضروات</a></li>
+                  <li><a class="dropdown-item" href="#">فاكهة</a></li>
+                </ul>
+              </li>
+              <!-- محاصيل -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  محاصيل
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">خضروات</a></li>
+                  <li><a class="dropdown-item" href="#">فاكهة</a></li>
+                  <li><a class="dropdown-item" href="#">بقوليات</a></li>
+                  <li><a class="dropdown-item" href="#">محاصيل الحقل</a></li>
+                </ul>
+              </li>
+
+              <!-- معدات -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  معدات زراعية
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">رشاشات</a></li>
+                  <li><a class="dropdown-item" href="#">أدوات يدوية</a></li>
+                </ul>
+              </li>
+
+              <!-- حلول -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  حلول متكاملة
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">حلول زراعية</a></li>
+                  <li><a class="dropdown-item" href="#">حلول مكافحة</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">شهادات الجودة</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="container-user d-none d-lg-flex align-items-center flex-row"
+        >
+          <div class="dropdown me-3">
+            <a
+              href="#"
+              class="text-dark position-relative"
+              data-bs-toggle="dropdown"
+            >
+              <i class="fas fa-shopping-cart fs-5"></i>
+              <span class="cart-count">3</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end cart-dropdown">
+              <div class="cart-items">
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product1.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فيلد اب 48</h6>
+                    <small class="text-muted">1 × 150 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product2.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فينوزون 50% EC</h6>
+                    <small class="text-muted">2 × 200 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between mb-3">
+                <strong>الإجمالي:</strong>
+                <strong class="text-success">550 ج.م</strong>
+              </div>
+              <div class="d-grid gap-2">
+                <a href="cart.html" class="btn btn-success">عرض السلة</a>
+                <a href="checkout.html" class="btn btn-outline-success"
+                  >الدفع</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="dropdown me-3">
+            <a
+              href="#"
+              class="text-dark position-relative"
+              data-bs-toggle="dropdown"
+            >
+              <i class="fas fa-heart fs-5"></i>
+              <span class="cart-count">2</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end cart-dropdown">
+              <div class="cart-items">
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product1.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فيلد اب 48</h6>
+                    <small class="text-muted">1 × 150 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product2.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فينوزون 50% EC</h6>
+                    <small class="text-muted">2 × 200 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+              </div>
+
+              <div class="d-grid gap-2">
+                <a href="wishlist.html" class="btn btn-success">عرض المفضلة</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="dropdown me-3">
+            <a href="#" class="text-dark" data-bs-toggle="dropdown">
+              <i class="fas fa-user fs-5"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end">
+              <a class="dropdown-item" href="login.html">تسجيل الدخول</a>
+              <a class="dropdown-item" href="register.html">إنشاء حساب</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="profile.html">حسابي</a>
+              <a class="dropdown-item" href="orders.html">طلباتي</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    
+
+    <!-- Checkout Header -->
+    <div class="checkout-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1 class="fw-bold mb-3">إتمام عملية الشراء</h1>
+                    <p class="mb-0">أكمل بياناتك لإتمام الطلب بنجاح</p>
+                </div>
+                <div class="col-md-4 text-start">
+                    <div class="d-flex align-items-center">
+                        <div class="ms-3">
+                            <i class="fas fa-lock fa-3x text-white"></i>
+                        </div>
+                        <div>
+                            <h4 class="mb-0 text-white">دفع آمن</h4>
+                            <small class="text-white-50">معلوماتك محمية</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Checkout Steps -->
+    <!-- <div class="checkout-steps">
+        <div class="container">
+            <div class="row position-relative">
+                <div class="step-line"></div>
+                <div class="col-3">
+                    <div class="step completed">
+                        <div class="step-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h6>السلة</h6>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="step active">
+                        <div class="step-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h6>المعلومات</h6>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="step">
+                        <div class="step-icon">
+                            <i class="fas fa-credit-card"></i>
+                        </div>
+                        <h6>الدفع</h6>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="step">
+                        <div class="step-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h6>التأكيد</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Checkout Content -->
+    <div class="container py-4">
+        <div class="row">
+            <!-- Left Column: Forms -->
+            <div class="col-lg-8">
+                <!-- Shipping Information -->
+                <div class="checkout-card">
+                    <h5><i class="fas fa-shipping-fast me-2"></i>معلومات الشحن</h5>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="firstName" class="form-label">الاسم الأول</label>
+                            <input type="text" class="form-control" id="firstName" value="" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="lastName" class="form-label">اسم العائلة</label>
+                            <input type="text" class="form-control" id="lastName" value="" required>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="email" class="form-label">البريد الإلكتروني</label>
+                            <input type="email" class="form-control" id="email" value="" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="phone" class="form-label">رقم الهاتف</label>
+                            <input type="tel" class="form-control" id="phone" value="" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="city" class="form-label">المدينة</label>
+                            <select class="form-select" id="city" required>
+                                <option value="">اختر المدينة</option>
+                                <option value="cairo" selected>القاهرة</option>
+                                <option value="giza">الجيزة</option>
+                                <option value="alexandria">الإسكندرية</option>
+                            </select>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="address" class="form-label">العنوان التفصيلي</label>
+                            <textarea class="form-control" id="address" rows="3" required>16 الفلاح، جزيرة ميت عقبة، العجوزة</textarea>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="saveAddress" checked>
+                                <label class="form-check-label" for="saveAddress">
+                                    حفظ العنوان للمرّة القادمة
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Payment Method -->
+                <div class="checkout-card">
+                    <h5><i class="fas fa-credit-card me-2"></i>طريقة الدفع</h5>
+                    
+                    <!-- Credit Card -->
+                    <div class="payment-method selected" id="creditCardMethod">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="paymentMethod" id="creditCard" checked>
+                            <label class="form-check-label w-100" for="creditCard">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <strong><i class="fas fa-credit-card me-2"></i>البطاقة الإئتمانية</strong>
+                                        <small class="d-block text-muted">فيزا / ماستركارد / أمريكان إكسبريس</small>
+                                    </div>
+                                    <div>
+                                        <i class="fab fa-cc-visa fa-2x me-2"></i>
+                                        <i class="fab fa-cc-mastercard fa-2x"></i>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        
+                        <!-- Card Details (Visible when selected) -->
+                        <div class="card-details mt-3">
+                            <div class="bank-card mb-3">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <div class="card-chip"></div>
+                                    <div class="text-end">
+                                        <div class="mb-2">VISA</div>
+                                        <div class="fs-5">**** **** **** 1234</div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-end mt-4">
+                                    <div>
+                                        <small class="d-block">حامل البطاقة</small>
+                                        <div>MOHAMED AHMED</div>
+                                    </div>
+                                    <div class="text-end">
+                                        <small class="d-block">صالحة حتى</small>
+                                        <div>12/25</div>
+                                    </div>
+                                </div>
+                                <div class="card-logo">BANK</div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="cardNumber" class="form-label">رقم البطاقة</label>
+                                    <input type="text" class="form-control" id="cardNumber" placeholder="1234 5678 9012 3456">
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <label for="expiryDate" class="form-label">تاريخ الانتهاء</label>
+                                    <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY">
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <label for="cvv" class="form-label">CVV</label>
+                                    <input type="text" class="form-control" id="cvv" placeholder="123">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label for="cardName" class="form-label">اسم حامل البطاقة</label>
+                                    <input type="text" class="form-control" id="cardName" placeholder="كما هي مدونة على البطاقة">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cash on Delivery -->
+                    <div class="payment-method" id="codMethod">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="paymentMethod" id="cashOnDelivery">
+                            <label class="form-check-label w-100" for="cashOnDelivery">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <strong><i class="fas fa-money-bill-wave me-2"></i>الدفع عند الاستلام</strong>
+                                        <small class="d-block text-muted">ادفع عند استلام الطلب</small>
+                                    </div>
+                                    <div class="badge bg-warning text-dark">متاح</div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Bank Transfer -->
+                    <div class="payment-method" id="bankMethod">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="paymentMethod" id="bankTransfer">
+                            <label class="form-check-label w-100" for="bankTransfer">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <strong><i class="fas fa-university me-2"></i>التحويل البنكي</strong>
+                                        <small class="d-block text-muted">تحويل مباشر إلى حسابنا البنكي</small>
+                                    </div>
+                                    <div class="badge bg-info">آمن</div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Security Badge -->
+                    <div class="d-flex align-items-center justify-content-between mt-3">
+                        <div class="security-badge">
+                            <i class="fas fa-lock me-1"></i> دفع آمن ومشفر
+                        </div>
+                        <small class="text-muted">
+                            <i class="fas fa-shield-alt me-1"></i>
+                            معلوماتك محمية بـ SSL 256-bit
+                        </small>
+                    </div>
+                </div>
+
+                <!-- Order Notes -->
+                <div class="checkout-card">
+                    <h5><i class="fas fa-sticky-note me-2"></i>ملاحظات على الطلب</h5>
+                    <textarea class="form-control" rows="4" placeholder="ملاحظات خاصة للطلب (اختياري)"></textarea>
+                </div>
+            </div>
+
+            <!-- Right Column: Order Summary -->
+            <div class="col-lg-4">
+                <!-- Order Summary -->
+                <div class="checkout-card">
+                    <h5>ملخص الطلب</h5>
+                    
+                    <div class="cart-items-mini mb-3">
+                        <!-- Item 1 -->
+                        <div class="cart-mini-item">
+                            <img src="./img/p3.png" alt="فيلد اب 48">
+                            <div class="flex-grow-1">
+                                <h6 class="mb-1">فيلد اب 48</h6>
+                                <small>1 × 150 ج.م</small>
+                            </div>
+                            <div class="text-success">150 ج.م</div>
+                        </div>
+                        
+                        <!-- Item 2 -->
+                        <div class="cart-mini-item">
+                            <img src="./img/p4.png" alt="فينوزون">
+                            <div class="flex-grow-1">
+                                <h6 class="mb-1">فينوزون 50% EC</h6>
+                                <small>2 × 200 ج.م</small>
+                            </div>
+                            <div class="text-success">400 ج.م</div>
+                        </div>
+                        
+                        <!-- Item 3 -->
+                        <div class="cart-mini-item">
+                            <img src="./img/p1.png" alt="كلسك">
+                            <div class="flex-grow-1">
+                                <h6 class="mb-1">كلسك 12</h6>
+                                <small>1 × 180 ج.م</small>
+                            </div>
+                            <div class="text-success">180 ج.م</div>
+                        </div>
+                    </div>
+
+                    <div class="order-summary-item d-flex justify-content-between">
+                        <span>الإجمالي الجزئي</span>
+                        <span>730 ج.م</span>
+                    </div>
+                    
+                    <div class="order-summary-item d-flex justify-content-between">
+                        <span>الشحن</span>
+                        <span class="text-success">مجاناً</span>
+                    </div>
+                    
+                    <div class="order-summary-item d-flex justify-content-between">
+                        <span>الضريبة</span>
+                        <span>73 ج.م</span>
+                    </div>
+                    
+                    <div class="order-summary-item d-flex justify-content-between">
+                        <span>الخصم</span>
+                        <span class="text-success">-50 ج.م</span>
+                    </div>
+                    
+                    <div class="order-summary-item d-flex justify-content-between fw-bold fs-5">
+                        <span>الإجمالي النهائي</span>
+                        <span class="text-success">753 ج.م</span>
+                    </div>
+
+                    <!-- Terms & Conditions -->
+                    <div class="form-check mt-3">
+                        <input class="form-check-input" type="checkbox" id="agreeTerms" required>
+                        <label class="form-check-label small" for="agreeTerms">
+                            أوافق على <a href="#" class="text-decoration-none">الشروط والأحكام</a> 
+                            و <a href="#" class="text-decoration-none">سياسة الخصوصية</a>
+                        </label>
+                    </div>
+
+                    <!-- Complete Order Button -->
+                    <button class="btn btn-success btn-lg w-100 mt-3" id="completeOrder">
+                        <i class="fas fa-lock me-2"></i>إتمام الطلب
+                    </button>
+
+                    <!-- Guarantee -->
+                    <div class="text-center mt-3">
+                        <small class="text-muted">
+                            <i class="fas fa-shield-alt me-1"></i>
+                            ضمان استرداد الأموال خلال 30 يوم
+                        </small>
+                    </div>
+                </div>
+
+                <!-- Customer Support -->
+                <div class="checkout-card">
+                    <h6><i class="fas fa-headset me-2"></i>الدعم الفني</h6>
+                    <div class="support-info">
+                        <div class="d-flex mb-2">
+                            <i class="fas fa-phone-alt text-success me-2 mt-1"></i>
+                            <div>
+                                <small class="text-muted d-block">للأسئلة الفنية</small>
+                                <strong>0233053601</strong>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <i class="fab fa-whatsapp text-success me-2 mt-1"></i>
+                            <div>
+                                <small class="text-muted d-block">واتساب الدعم</small>
+                                <strong>+20123456789</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="footer-about">
+              <img
+                src="img/logo-kanza-light.png"
+                alt="Kanza Group"
+                height="120"
+                class="mb-"
+              />
+              <p class="mb-3">
+                مجموعة كنزا هي شركة رائدة في مجال المستلزمات الزراعية والمنتجات
+                الغذائية في مصر والشرق الأوسط.
+              </p>
+              <div class="social-icons">
+                <a href="#" class="text-white me-3"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="text-white me-3"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="text-white me-3"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="text-white me-3"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 mb-4">
+            <h5 class="fw-bold mb-3">روابط سريعة</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="index.html" class="text-white text-decoration-none"
+                  >الرئيسية</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="about.html" class="text-white text-decoration-none"
+                  >من نحن</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="products.html" class="text-white text-decoration-none"
+                  >المنتجات</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="services.html" class="text-white text-decoration-none"
+                  >شهادات الجودة</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="contact.html" class="text-white text-decoration-none"
+                  >اتصل بنا</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-4 mb-4">
+            <h5 class="fw-bold mb-3">فئات المنتجات</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="category.html" class="text-white text-decoration-none"
+                  >مبيدات الآفات</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="category.html" class="text-white text-decoration-none"
+                  >الأسمدة</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="category.html" class="text-white text-decoration-none"
+                  >البذور</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="category.html" class="text-white text-decoration-none"
+                  >المعدات الزراعية</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="category.html" class="text-white text-decoration-none"
+                  >الأعلاف</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-4 mb-4">
+            <h5 class="fw-bold mb-3">معلومات الاتصال</h5>
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <i class="fas fa-map-marker-alt text-success ms-2"></i>
+                <a href="#" class="text-white text-decoration-none"
+                  >16 الفلاح، جزيرة ميت عقبة، العجوزة، الجيزة، مصر</a
+                >
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-phone-alt text-success ms-2"></i>
+                <a href="tel:0233053601" class="text-white text-decoration-none"
+                  >0233053601</a
+                >
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-envelope text-success ms-2"></i>
+                <a
+                  href="mailto:info@kanzagroup.com.eg"
+                  class="text-white text-decoration-none"
+                  >info@kanzagroup.com.eg</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="my-4" />
+
+        <div class="row">
+          <div class="col-md-6">
+            <p class="mb-0">
+              جميع الحقوق محفوظة.© 2026 مجموعة كنزا. تم التطوير بواسطة شركة
+              <a href="https://pure-soft.com"><span>بيور سوفت</span></a>
+            </p>
+          </div>
+          <div class="col-md-6 text-start">
+            <div class="payment-methods">
+              <span class="me-2">طرق الدفع المتاحة:</span>
+              <i class="fab fa-cc-visa text-white me-2 fs-5"></i>
+              <i class="fab fa-cc-mastercard text-white me-2 fs-5"></i>
+              <i class="fab fa-cc-paypal text-white me-2 fs-5"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/20123456789" class="whatsapp-button" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="btn btn-success">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+        <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/kanza.js"></script>
+     <script src="js/loading.js"></script>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+           // // Countdown Timer
+          //  let timeLeft = 15 * 60; // 15 minutes in seconds
+           // const countdownElement = document.getElementById('countdown');
+            
+            //const updateTimer = () => {
+             //   const minutes = Math.floor(timeLeft / 60);
+             //   const seconds = timeLeft % 60;
+             //   countdownElement.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                
+              //  if (timeLeft > 0) {
+                //    timeLeft--;
+               // } else {
+                //    clearInterval(timerInterval);
+                 //   window.location.href = 'cart.html';
+               // }
+          //  };
+          //  
+          //  const timerInterval = setInterval(updateTimer, 1000);
+          //  updateTimer();
+
+            // Payment Method Selection
+            const paymentMethods = document.querySelectorAll('.payment-method');
+            paymentMethods.forEach(method => {
+                method.addEventListener('click', function() {
+                    paymentMethods.forEach(m => m.classList.remove('selected'));
+                    this.classList.add('selected');
+                    
+                    const radio = this.querySelector('input[type="radio"]');
+                    if (radio) {
+                        radio.checked = true;
+                    }
+                });
+            });
+
+            // Credit Card Input Formatting
+            const cardNumberInput = document.getElementById('cardNumber');
+            if (cardNumberInput) {
+                cardNumberInput.addEventListener('input', function(e) {
+                    let value = e.target.value.replace(/\s+/g, '').replace(/[^0-9]/gi, '');
+                    let formatted = value.match(/.{1,4}/g)?.join(' ') || '';
+                    e.target.value = formatted.substring(0, 19);
+                });
+            }
+
+            const expiryInput = document.getElementById('expiryDate');
+            if (expiryInput) {
+                expiryInput.addEventListener('input', function(e) {
+                    let value = e.target.value.replace(/[^0-9]/g, '');
+                    if (value.length >= 2) {
+                        value = value.substring(0, 2) + '/' + value.substring(2, 4);
+                    }
+                    e.target.value = value.substring(0, 5);
+                });
+            }
+
+            const cvvInput = document.getElementById('cvv');
+            if (cvvInput) {
+                cvvInput.addEventListener('input', function(e) {
+                    e.target.value = e.target.value.replace(/[^0-9]/g, '').substring(0, 4);
+                });
+            }
+
+            // Complete Order Button
+            const completeOrderBtn = document.getElementById('completeOrder');
+            if (completeOrderBtn) {
+                completeOrderBtn.addEventListener('click', function() {
+                    const agreeTerms = document.getElementById('agreeTerms');
+                    
+                    if (!agreeTerms.checked) {
+                        alert('يجب الموافقة على الشروط والأحكام أولاً.');
+                        return;
+                    }
+
+                    // Show loading state
+                    this.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>جاري معالجة الطلب...';
+                    this.disabled = true;
+
+                    // Simulate order processing
+                    setTimeout(() => {
+                        // Redirect to success page
+                        window.location.href = 'order-success.html';
+                    }, 2000);
+                });
+            }
+        });
+    </script>
+</body>
+</html>

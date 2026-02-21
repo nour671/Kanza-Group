@@ -1,0 +1,1466 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>المبيدات - مجموعة كنزا</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="./img/logo-kanza.png" />
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts Arabic -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/kanza.css" />
+    <link rel="stylesheet" href="css/category.css" />
+    <link rel="stylesheet" href="./css/product.css" />
+  </head>
+  <body>
+    <!-- Top Header - -->
+    <div class="top-header d-none d-lg-block py-2 text-success">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-md-4">
+            <div
+              class="d-flex align-items-center justify-content-center justify-content-md-start"
+            >
+              <span class="me-3">
+                <i class="fas fa-phone-alt me-1"></i> 0233053601
+              </span>
+              <span>
+                <i class="fas fa-envelope me-1"></i> info@kanzagroup.com.eg
+              </span>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="header-promo small">
+              <i class="fas fa-truck me-1"></i> توصيل مجاني للطلبات فوق 1000
+              جنيه
+            </div>
+          </div>
+          <div class="col-md-4 text-center text-md-end">
+            <div class="social-icons me-lg-5 pe-lg-5">
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav
+      class="navbar navbar1 logo-section navbar-expand-lg navbar-light bg-white sticky shadow-sm py-0"
+      style="z-index: 99"
+    >
+      <div class="container">
+        <!-- Logo Section -->
+
+        <div class="logo-section py-0 d-flex align-items-center">
+          <a class="navbar-brand m-0 p-0" href="index.html">
+            <img src="./img/logo-kanza.png" alt="Kanza Group" />
+          </a>
+          <div class="brand-info me-4 d-none d-lg-block">
+            <h6 class="mb-0 text-success fw-bold">مجموعة كنزا</h6>
+            <small class="text-muted">حلول زراعية متكاملة منذ 2005</small>
+          </div>
+        </div>
+        <form class="d-flex search-form mt-0">
+          <div class="input-group">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="ابحث عن منتج..."
+            />
+
+            <button class="btn btn-success" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Main Navigation -->
+    <nav
+      class="navbar navbar2 navbar-expand-lg navbar-light bg-white sticky-top shadow-sm py-3"
+      style="z-index: 90"
+    >
+      <div class="container">
+        <!-- User Actions -->
+
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="container-user d-block d-lg-none d-flex align-items-center">
+          <div class="dropdown me-3">
+            <a
+              href="#"
+              class="text-dark position-relative"
+              data-bs-toggle="dropdown"
+            >
+              <i class="fas fa-shopping-cart fs-5"></i>
+              <span class="cart-count">3</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end cart-dropdown">
+              <div class="cart-items">
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product1.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فيلد اب 48</h6>
+                    <small class="text-muted">1 × 150 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product2.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فينوزون 50% EC</h6>
+                    <small class="text-muted">2 × 200 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between mb-3">
+                <strong>الإجمالي:</strong>
+                <strong class="text-success">550 ج.م</strong>
+              </div>
+              <div class="d-grid gap-2">
+                <a href="cart.html" class="btn btn-success">عرض السلة</a>
+                <a href="checkout.html" class="btn btn-outline-success"
+                  >الدفع</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="dropdown me-3">
+            <a
+              href="#"
+              class="text-dark position-relative"
+              data-bs-toggle="dropdown"
+            >
+              <i class="fas fa-heart fs-5"></i>
+              <span class="cart-count">2</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end cart-dropdown">
+              <div class="cart-items">
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product1.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فيلد اب 48</h6>
+                    <small class="text-muted">1 × 150 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product2.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فينوزون 50% EC</h6>
+                    <small class="text-muted">2 × 200 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+              </div>
+
+              <div class="d-grid gap-2">
+                <a href="wishing.html" class="btn btn-success">عرض المفضلة</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="dropdown me-3">
+            <a href="#" class="text-dark" data-bs-toggle="dropdown">
+              <i class="fas fa-user fs-5"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end">
+              <a class="dropdown-item" href="login.html">تسجيل الدخول</a>
+              <a class="dropdown-item" href="register.html">إنشاء حساب</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="profile.html">حسابي</a>
+              <a class="dropdown-item" href="orders.html">طلباتي</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main Menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-content w-100">
+            <ul class="navbar-nav me-auto main-menu">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">من نحن</a>
+              </li>
+
+              <!-- مبيدات -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  مبيدات زراعية
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">مبيدات حشرية</a></li>
+                  <li><a class="dropdown-item" href="#">مبيدات فطرية</a></li>
+                  <li><a class="dropdown-item" href="#">مبيدات أعشاب</a></li>
+                </ul>
+              </li>
+
+              <!-- صحة عامة -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  مبيدات الصحة العامة
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">مكافحة حشرات</a></li>
+                  <li><a class="dropdown-item" href="#">مكافحة قوارض</a></li>
+                  <li><a class="dropdown-item" href="#">مطهرات</a></li>
+                </ul>
+              </li>
+
+              <!-- أسمدة -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  أسمدة
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">أسمدة عضوية</a></li>
+                  <li><a class="dropdown-item" href="#">أسمدة كيماوية</a></li>
+                  <li><a class="dropdown-item" href="#">محفزات نمو</a></li>
+                </ul>
+              </li>
+
+              <!-- بذور -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  بذور
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">خضروات</a></li>
+                  <li><a class="dropdown-item" href="#">فاكهة</a></li>
+                </ul>
+              </li>
+              <!-- محاصيل -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  محاصيل
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">خضروات</a></li>
+                  <li><a class="dropdown-item" href="#">فاكهة</a></li>
+                  <li><a class="dropdown-item" href="#">بقوليات</a></li>
+                  <li><a class="dropdown-item" href="#">محاصيل الحقل</a></li>
+                </ul>
+              </li>
+
+              <!-- معدات -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  معدات زراعية
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">رشاشات</a></li>
+                  <li><a class="dropdown-item" href="#">أدوات يدوية</a></li>
+                </ul>
+              </li>
+
+              <!-- حلول -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  حلول متكاملة
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">حلول زراعية</a></li>
+                  <li><a class="dropdown-item" href="#">حلول مكافحة</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">شهادات الجودة</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="container-user d-none d-lg-flex align-items-center flex-row"
+        >
+          <div class="dropdown me-3">
+            <a
+              href="#"
+              class="text-dark position-relative"
+              data-bs-toggle="dropdown"
+            >
+              <i class="fas fa-shopping-cart fs-5"></i>
+              <span class="cart-count">3</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end cart-dropdown">
+              <div class="cart-items">
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product1.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فيلد اب 48</h6>
+                    <small class="text-muted">1 × 150 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product2.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فينوزون 50% EC</h6>
+                    <small class="text-muted">2 × 200 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between mb-3">
+                <strong>الإجمالي:</strong>
+                <strong class="text-success">550 ج.م</strong>
+              </div>
+              <div class="d-grid gap-2">
+                <a href="cart.html" class="btn btn-success">عرض السلة</a>
+                <a href="checkout.html" class="btn btn-outline-success"
+                  >الدفع</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="dropdown me-3">
+            <a
+              href="#"
+              class="text-dark position-relative"
+              data-bs-toggle="dropdown"
+            >
+              <i class="fas fa-heart fs-5"></i>
+              <span class="cart-count">2</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end cart-dropdown">
+              <div class="cart-items">
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product1.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فيلد اب 48</h6>
+                    <small class="text-muted">1 × 150 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product2.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فينوزون 50% EC</h6>
+                    <small class="text-muted">2 × 200 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+              </div>
+
+              <div class="d-grid gap-2">
+                <a href="wishing.html" class="btn btn-success">عرض المفضلة</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="dropdown me-3">
+            <a href="#" class="text-dark" data-bs-toggle="dropdown">
+              <i class="fas fa-user fs-5"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end">
+              <a class="dropdown-item" href="login.html">تسجيل الدخول</a>
+              <a class="dropdown-item" href="register.html">إنشاء حساب</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="profile.html">حسابي</a>
+              <a class="dropdown-item" href="orders.html">طلباتي</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div
+      class="page-header py-5 text-white pesticide-header"
+      style="
+        background-image:
+          linear-gradient(
+            135deg,
+            rgba(0, 0, 0, 0.3) 0%,
+            rgba(6, 6, 6, 0.3) 100%
+          ),
+          url(&quot;img/banner.jpg&quot;);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      "
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8">
+            <h1 class="display-4 fw-bold mb-3">المبيدات الحشرية</h1>
+            <p class="lead mb-4">
+              حلول فعالة لمكافحة الحشرات الضارة لحماية محاصيلك وزيادة إنتاجيتها
+            </p>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item ms-3">
+                  <a href="index.html" class="text-white">الرئيسية</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a href="pesticides.html" class="text-white">المبيدات</a>
+                </li>
+                <li
+                  class="breadcrumb-item active text-white"
+                  aria-current="page"
+                >
+                  المبيدات الحشرية
+                </li>
+              </ol>
+            </nav>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <div class="p-4 bg-primary bg-opacity-50 rounded">
+              <h5 class="text-white">
+                <i class="fas fa-shield-alt me-2"></i> منتجات مصرح بها
+              </h5>
+              <p class="text-white mb-0 small">
+                جميع مبيداتنا مسجلة ومرخصة من وزارة الزراعة
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Filters -->
+    <section class="py-4 bg-light">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-lg-3 col-md-6">
+            <select class="form-select">
+              <option selected>ترتيب حسب: الأكثر مبيعاً</option>
+              <option value="1">الأحدث</option>
+              <option value="2">السعر: من الأقل للأعلى</option>
+              <option value="3">السعر: من الأعلى للأقل</option>
+              <option value="4">الأعلى تقييماً</option>
+            </select>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <select class="form-select">
+              <option selected>جميع الأنواع</option>
+              <option value="1">مبيدات جهازية</option>
+              <option value="2">مبيدات كيميائية</option>
+              <option value="3">مبيدات عضوية</option>
+              <option value="4">مبيدات تنفسية</option>
+            </select>
+          </div>
+          <!-- <div class="col-lg-3 col-md-6">
+                    <select class="form-select">
+                        <option selected>جميع المحاصيل</option>
+                        <option value="1">محاصيل حقلية</option>
+                        <option value="2">خضروات</option>
+                        <option value="3">فواكه</option>
+                        <option value="4">نباتات زينة</option>
+                    </select>
+                </div> -->
+          <div class="col-lg-3 col-md-6">
+            <div class="d-flex gap-2">
+              <button class="btn btn-success flex-grow-1">
+                <i class="fas fa-filter me-2"></i> تصفية
+              </button>
+              <button class="btn btn-outline-danger">
+                <i class="fas fa-redo me-2"></i> إعادة تعيين
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-12">
+            <div class="d-flex flex-wrap gap-2">
+              <button
+                class="btn btn-outline-secondary filter-btn active"
+                data-filter="all"
+              >
+                الكل
+              </button>
+              <button
+                class="btn btn-outline-secondary filter-btn"
+                data-filter="organic"
+              >
+                عضوية
+              </button>
+              <button
+                class="btn btn-outline-secondary filter-btn"
+                data-filter="chemical"
+              >
+                كيميائية
+              </button>
+              <button
+                class="btn btn-outline-secondary filter-btn"
+                data-filter="systemic"
+              >
+                جهازية
+              </button>
+              <button
+                class="btn btn-outline-secondary filter-btn"
+                data-filter="special"
+              >
+                عروض خاصة
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-8">
+            <h2 class="fw-bold mb-3">المبيدات المتاحة</h2>
+            <p class="text-muted mb-0">
+              اكتشف مجموعة واسعة من المبيدات الفعالة والمصرح بها
+            </p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <div class="d-inline-block p-3 pesticide-feature rounded">
+              <div class="d-flex align-items-center">
+                <i class="fas fa-check-circle fa-2x text-success ms-3"></i>
+                <div>
+                  <h6 class="mb-0">15 منتج</h6>
+                  <small class="text-muted">متوفر حالياً</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- Product 1 -->
+          <div
+            class="col-lg-4 col-md-6 mb-4 product-item"
+            data-category="chemical systemic"
+          >
+            <div
+              class="card h-100 border-0 shadow-sm pesticide-card hover-lift"
+            >
+              <span class="best-seller">الأكثر مبيعاً</span>
+              <div class="product-image-container">
+                <img
+                  src="./img/product (1).jpg"
+                  alt="فيلد اب 48"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="card-body product-details">
+                <div class="mb-2">
+                  <span class="safety-level high">آمنة للاستخدام</span>
+                </div>
+                <h5 class="card-title mb-2">فيلد اب 48</h5>
+                <p class="card-text text-muted small">
+                  مبيد حشري جهازي فعال ضد مجموعة واسعة من الحشرات الماصة
+                  والعضوية
+                </p>
+                <div class="mb-3">
+                  <span class="text-danger fw-bold">180 ج.م</span>
+                  <span class="text-muted text-decoration-line-through me-2"
+                    >200 ج.م</span
+                  >
+                </div>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="quantity-controls d-flex align-items-center">
+                    <button class="btn btn-outline-secondary btn-sm">-</button>
+                    <input
+                      type="text"
+                      class="form-control form-control-sm text-center border-0"
+                      value="1"
+                      style="width: 40px"
+                    />
+                    <button class="btn btn-outline-secondary btn-sm">+</button>
+                  </div>
+                  <button class="btn btn-success add-to-cart">
+                    <i class="fas fa-cart-plus me-2"></i> أضف للسلة
+                  </button>
+                </div>
+              </div>
+              <div class="card-footer bg-transparent border-top-0 pt-0">
+                <div class="d-flex justify-content-between small">
+                  <span><i class="fas fa-box me-1"></i> متوفر: 45</span>
+                  <a href="details.html" class="text-danger"
+                    ><i class="fas fa-info-circle me-1"></i> التفاصيل</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div
+            class="col-lg-4 col-md-6 mb-4 product-item"
+            data-category="chemical contact"
+          >
+            <div
+              class="card h-100 border-0 shadow-sm pesticide-card hover-lift"
+            >
+              <div class="product-image-container">
+                <img
+                  src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+                  alt="فينوزون 50% EC"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="card-body product-details">
+                <div class="mb-2">
+                  <span class="safety-level medium">استخدام متوسط</span>
+                </div>
+                <h5 class="card-title mb-2">فينوزون 50% EC</h5>
+                <p class="card-text text-muted small">
+                  مبيد حشري تلامسي للقضاء على حشرات المن والذبابة البيضاء
+                </p>
+                <div class="mb-3">
+                  <span class="text-danger fw-bold">220 ج.م</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="quantity-controls d-flex align-items-center">
+                    <button class="btn btn-outline-secondary btn-sm">-</button>
+                    <input
+                      type="text"
+                      class="form-control form-control-sm text-center border-0"
+                      value="1"
+                      style="width: 40px"
+                    />
+                    <button class="btn btn-outline-secondary btn-sm">+</button>
+                  </div>
+                  <button class="btn btn-success add-to-cart">
+                    <i class="fas fa-cart-plus me-2"></i> أضف للسلة
+                  </button>
+                </div>
+              </div>
+              <div class="card-footer bg-transparent border-top-0 pt-0">
+                <div class="d-flex justify-content-between small">
+                  <span><i class="fas fa-box me-1"></i> متوفر: 32</span>
+                  <a href="product-details.html" class="text-danger"
+                    ><i class="fas fa-info-circle me-1"></i> التفاصيل</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div
+            class="col-lg-4 col-md-6 mb-4 product-item"
+            data-category="organic systemic"
+          >
+            <div
+              class="card h-100 border-0 shadow-sm pesticide-card hover-lift"
+            >
+              <span class="discount-badge">خصم 15%</span>
+              <div class="product-image-container">
+                <img
+                  src="./img/product (2).jpg"
+                  alt="نيماسيد عضوي"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="card-body product-details">
+                <div class="mb-2">
+                  <span class="safety-level high">آمنة للاستخدام</span>
+                </div>
+                <h5 class="card-title mb-2">نيماسيد عضوي</h5>
+                <p class="card-text text-muted small">
+                  مبيد عضوي مستخلص من شجرة النيم لمكافحة الحشرات بشكل طبيعي
+                </p>
+                <div class="mb-3">
+                  <span class="text-danger fw-bold">150 ج.م</span>
+                  <span class="text-muted text-decoration-line-through me-2"
+                    >175 ج.م</span
+                  >
+                </div>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="quantity-controls d-flex align-items-center">
+                    <button class="btn btn-outline-secondary btn-sm">-</button>
+                    <input
+                      type="text"
+                      class="form-control form-control-sm text-center border-0"
+                      value="1"
+                      style="width: 40px"
+                    />
+                    <button class="btn btn-outline-secondary btn-sm">+</button>
+                  </div>
+                  <button class="btn btn-success add-to-cart">
+                    <i class="fas fa-cart-plus me-2"></i> أضف للسلة
+                  </button>
+                </div>
+              </div>
+              <div class="card-footer bg-transparent border-top-0 pt-0">
+                <div class="d-flex justify-content-between small">
+                  <span><i class="fas fa-box me-1"></i> متوفر: 28</span>
+                  <a href="product-details.html" class="text-danger"
+                    ><i class="fas fa-info-circle me-1"></i> التفاصيل</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+          <div
+            class="col-lg-4 col-md-6 mb-4 product-item"
+            data-category="chemical special"
+          >
+            <div
+              class="card h-100 border-0 shadow-sm pesticide-card hover-lift"
+            >
+              <span class="best-seller">عرض خاص</span>
+              <div class="product-image-container">
+                <img
+                  src="./img/product (3).jpg"
+                  alt="كرباريل 85% WP"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="card-body product-details">
+                <div class="mb-2">
+                  <span class="safety-level low">يستخدم بحذر</span>
+                </div>
+                <h5 class="card-title mb-2">كرباريل 85% WP</h5>
+                <p class="card-text text-muted small">
+                  مبيد واسع المجال فعال ضد حشرات القطن والخضروات
+                </p>
+                <div class="mb-3">
+                  <span class="text-danger fw-bold">190 ج.م</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="quantity-controls d-flex align-items-center">
+                    <button class="btn btn-outline-secondary btn-sm">-</button>
+                    <input
+                      type="text"
+                      class="form-control form-control-sm text-center border-0"
+                      value="1"
+                      style="width: 40px"
+                    />
+                    <button class="btn btn-outline-secondary btn-sm">+</button>
+                  </div>
+                  <button class="btn btn-success add-to-cart">
+                    <i class="fas fa-cart-plus me-2"></i> أضف للسلة
+                  </button>
+                </div>
+              </div>
+              <div class="card-footer bg-transparent border-top-0 pt-0">
+                <div class="d-flex justify-content-between small">
+                  <span><i class="fas fa-box me-1"></i> متوفر: 18</span>
+                  <a href="product-details.html" class="text-danger"
+                    ><i class="fas fa-info-circle me-1"></i> التفاصيل</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 5 -->
+          <div
+            class="col-lg-4 col-md-6 mb-4 product-item"
+            data-category="organic contact"
+          >
+            <div
+              class="card h-100 border-0 shadow-sm pesticide-card hover-lift"
+            >
+              <div class="product-image-container">
+                <img
+                  src="./img/product (2).jpg"
+                  alt="بيريثرين طبيعي"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="card-body product-details">
+                <div class="mb-2">
+                  <span class="safety-level high">آمنة للاستخدام</span>
+                </div>
+                <h5 class="card-title mb-2">بيريثرين طبيعي</h5>
+                <p class="card-text text-muted small">
+                  مستخلص نباتي فعال ضد الحشرات الطائرة والزاحفة
+                </p>
+                <div class="mb-3">
+                  <span class="text-danger fw-bold">210 ج.م</span>
+                </div>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="quantity-controls d-flex align-items-center">
+                    <button class="btn btn-outline-secondary btn-sm">-</button>
+                    <input
+                      type="text"
+                      class="form-control form-control-sm text-center border-0"
+                      value="1"
+                      style="width: 40px"
+                    />
+                    <button class="btn btn-outline-secondary btn-sm">+</button>
+                  </div>
+                  <button class="btn btn-success add-to-cart">
+                    <i class="fas fa-cart-plus me-2"></i> أضف للسلة
+                  </button>
+                </div>
+              </div>
+              <div class="card-footer bg-transparent border-top-0 pt-0">
+                <div class="d-flex justify-content-between small">
+                  <span><i class="fas fa-box me-1"></i> متوفر: 25</span>
+                  <a href="product-details.html" class="text-danger"
+                    ><i class="fas fa-info-circle me-1"></i> التفاصيل</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 6 -->
+          <div
+            class="col-lg-4 col-md-6 mb-4 product-item"
+            data-category="chemical systemic"
+          >
+            <div
+              class="card h-100 border-0 shadow-sm pesticide-card hover-lift"
+            >
+              <span class="discount-badge">عرض حصري</span>
+              <div class="product-image-container">
+                <img
+                  src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+                  alt="إيميداكلوبريد 20% SL"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="card-body product-details">
+                <div class="mb-2">
+                  <span class="safety-level medium">استخدام متوسط</span>
+                </div>
+                <h5 class="card-title mb-2">إيميداكلوبريد 20% SL</h5>
+                <p class="card-text text-muted small">
+                  مبيد جهازي فعال للغاية ضد حشرات المن والذبابة البيضاء
+                </p>
+                <div class="mb-3">
+                  <span class="text-danger fw-bold">250 ج.م</span>
+                  <span class="text-muted text-decoration-line-through me-2"
+                    >280 ج.م</span
+                  >
+                </div>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="quantity-controls d-flex align-items-center">
+                    <button class="btn btn-outline-secondary btn-sm">-</button>
+                    <input
+                      type="text"
+                      class="form-control form-control-sm text-center border-0"
+                      value="1"
+                      style="width: 40px"
+                    />
+                    <button class="btn btn-outline-secondary btn-sm">+</button>
+                  </div>
+                  <button class="btn btn-success add-to-cart">
+                    <i class="fas fa-cart-plus me-2"></i> أضف للسلة
+                  </button>
+                </div>
+              </div>
+              <div class="card-footer bg-transparent border-top-0 pt-0">
+                <div class="d-flex justify-content-between small">
+                  <span><i class="fas fa-box me-1"></i> متوفر: 22</span>
+                  <a href="product-details.html" class="text-danger"
+                    ><i class="fas fa-info-circle me-1"></i> التفاصيل</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="row">
+          <div class="pagination_area">
+            <nav aria-label="...">
+              <ul class="pagination justify-content-center mt_50">
+                <li class="page-item">
+                  <a class="page-link text-success" href="#">
+                    <i class="fas fa-arrow-left" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="page-item">
+                  <a
+                    class="page-link active bg-success text-white border-success"
+                    href="#"
+                    >01</a
+                  >
+                </li>
+                <li class="page-item">
+                  <a class="page-link text-success" href="#">02</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link text-success" href="#">03</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link text-success" href="#">
+                    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Information Section -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="fw-bold mb-3">معلومات هامة عن المبيدات</h2>
+            <p class="text-muted">
+              تعرف على كيفية الاستخدام الآمن والفعال للمبيدات
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="card border-0 shadow-sm mb-4">
+              <div class="card-body p-4">
+                <div class="product-tabs mb-4">
+                  <ul class="nav nav-tabs border-0">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        data-bs-toggle="tab"
+                        href="#tab1"
+                        >طرق الاستخدام</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="tab" href="#tab2"
+                        >إرشادات السلامة</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="tab" href="#tab3"
+                        >فترة الأمان</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="tab" href="#tab4"
+                        >نصائح التخزين</a
+                      >
+                    </li>
+                  </ul>
+
+                  <div class="tab-content mt-4">
+                    <div class="tab-pane fade show active" id="tab1">
+                      <h5 class="mb-3">الاستخدام الصحيح للمبيدات</h5>
+                      <ul class="list-unstyled">
+                        <li class="mb-2">
+                          <i class="fas fa-check text-success ms-2"></i> قراءة
+                          التعليمات المدونة على العبوة بعناية
+                        </li>
+                        <li class="mb-2">
+                          <i class="fas fa-check text-success ms-2"></i> استخدام
+                          الجرعة الموصى بها فقط
+                        </li>
+                        <li class="mb-2">
+                          <i class="fas fa-check text-success ms-2"></i> خلط
+                          المبيد في مكان جيد التهوية
+                        </li>
+                        <li class="mb-2">
+                          <i class="fas fa-check text-success ms-2"></i> استخدام
+                          الرشاش المناسب لنوع المحصول
+                        </li>
+                        <li>
+                          <i class="fas fa-check text-success ms-2"></i> تجنب
+                          الرش أثناء هبوب الرياح
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="tab-pane fade" id="tab2">
+                      <h5 class="mb-3">إجراءات السلامة الواجب اتباعها</h5>
+                      <ul class="list-unstyled">
+                        <li class="mb-2">
+                          <i class="fas fa-shield-alt text-success ms-2"></i>
+                          ارتداء الملابس الواقية (قفازات، نظارات، كمامة)
+                        </li>
+                        <li class="mb-2">
+                          <i class="fas fa-shield-alt text-success ms-2"></i>
+                          عدم الأكل أو الشرب أثناء الرش
+                        </li>
+                        <li class="mb-2">
+                          <i class="fas fa-shield-alt text-success ms-2"></i>
+                          الاستحمام جيداً بعد الانتهاء من الرش
+                        </li>
+                        <li class="mb-2">
+                          <i class="fas fa-shield-alt text-success ms-2"></i>
+                          غسل الملابس المستخدمة فوراً
+                        </li>
+                        <li>
+                          <i class="fas fa-shield-alt text-success ms-2"></i>
+                          حفظ المبيدات بعيداً عن متناول الأطفال
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="tab-pane fade" id="tab3">
+                      <h5 class="mb-3">فترات الأمان للمحاصيل المختلفة</h5>
+                      <div class="table-responsive">
+                        <table class="table table-bordered">
+                          <thead class="table-primary">
+                            <tr>
+                              <th>نوع المحصول</th>
+                              <th>فترة الأمان</th>
+                              <th>ملاحظات</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>الخضروات الورقية</td>
+                              <td>7-10 أيام</td>
+                              <td>قبل الحصاد مباشرة</td>
+                            </tr>
+                            <tr>
+                              <td>الفواكه</td>
+                              <td>14-21 يوم</td>
+                              <td>حسب نوع المبيد</td>
+                            </tr>
+                            <tr>
+                              <td>محاصيل الحبوب</td>
+                              <td>30-45 يوم</td>
+                              <td>قبل الحصاد</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="tab4">
+                      <h5 class="mb-3">شروط التخزين الصحيحة</h5>
+                      <ul class="list-unstyled">
+                        <li class="mb-2">
+                          <i
+                            class="fas fa-temperature-low text-success ms-2"
+                          ></i>
+                          التخزين في مكان بارد وجاف
+                        </li>
+                        <li class="mb-2">
+                          <i class="fas fa-box text-success ms-2"></i> حفظ
+                          العبوات في وضعها الأصلي
+                        </li>
+                        <li class="mb-2">
+                          <i class="fas fa-lock text-success ms-2"></i> التأكد
+                          من إغلاق العبوات بإحكام
+                        </li>
+                        <li class="mb-2">
+                          <i class="fas fa-ban text-success ms-2"></i> عدم تخزين
+                          المبيدات مع الأغذية
+                        </li>
+                        <li>
+                          <i
+                            class="fas fa-exclamation-triangle text-success ms-2"
+                          ></i>
+                          التخلص من العبوات الفارغة بطريقة آمنة
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card border-0 shadow-sm mb-4">
+              <div class="card-header bg-danger text-white">
+                <h5 class="mb-0">
+                  <i class="fas fa-exclamation-triangle me-2"></i> تحذيرات هامة
+                </h5>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-3 pb-3 border-bottom">
+                    <h6 class="text-danger">
+                      <i class="fas fa-skull-crossbones me-2"></i> خطر
+                    </h6>
+                    <p class="small mb-0">
+                      يسبب أضراراً بالغة عند البلع أو الاستنشاق
+                    </p>
+                  </li>
+                  <li class="mb-3 pb-3 border-bottom">
+                    <h6 class="text-warning">
+                      <i class="fas fa-fire me-2"></i> قابل للاشتعال
+                    </h6>
+                    <p class="small mb-0">
+                      بعيد عن مصادر الحرارة واللهب المكشوف
+                    </p>
+                  </li>
+                  <li>
+                    <h6 class="text-info">
+                      <i class="fas fa-fish me-2"></i> خطر على البيئة
+                    </h6>
+                    <p class="small mb-0">
+                      سام للأسماك والنحل والكائنات المائية
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card border-0 shadow-sm">
+              <div class="card-header bg-success text-white">
+                <h5 class="mb-0">
+                  <i class="fas fa-headset me-2"></i> خدمة العملاء
+                </h5>
+              </div>
+              <div class="card-body">
+                <div class="text-center mb-4">
+                  <i class="fas fa-phone-alt fa-3x text-success mb-3"></i>
+                  <h5 class="mb-2">للاستفسارات الفنية</h5>
+                  <p class="small text-muted">
+                    فريق الدعم الفني متاح على مدار الساعة
+                  </p>
+                </div>
+                <div class="d-grid gap-2">
+                  <a href="tel:0233053601" class="btn btn-success">
+                    <i class="fas fa-phone-alt me-2"></i> اتصل بنا: 0233053601
+                  </a>
+                  <a
+                    href="https://wa.me/20123456789"
+                    class="btn btn-outline-success"
+                    target="_blank"
+                  >
+                    <i class="fab fa-whatsapp me-2"></i> واتساب الدعم الفني
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="mb-3">اشترك في نشرتنا الإخبارية</h2>
+            <p class="text-white-50 mb-4">
+              احصل على أحدث العروض والتخفيضات مباشرة على بريدك الإلكتروني
+            </p>
+
+            <form class="newsletter-form">
+              <div class="input-group mb-3">
+                <input
+                  type="email"
+                  class="form-control form-control-lg"
+                  placeholder="بريدك الإلكتروني"
+                />
+                <button class="btn btn-dark btn-lg" type="submit">اشترك</button>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="agreeCheck"
+                />
+                <label
+                  class="form-check-label small text-muted"
+                  for="agreeCheck"
+                >
+                  أوافق على تلقي رسائل إخبارية وعروض ترويجية
+                </label>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="footer-about">
+              <img
+                src="img/logo-kanza-light.png"
+                alt="Kanza Group"
+                height="120"
+                class="mb-"
+              />
+              <p class="mb-3">
+                مجموعة كنزا هي شركة رائدة في مجال المستلزمات الزراعية والمنتجات
+                الغذائية في مصر والشرق الأوسط.
+              </p>
+              <div class="social-icons">
+                <a href="#" class="text-white me-3"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="text-white me-3"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="text-white me-3"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="text-white me-3"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 mb-4">
+            <h5 class="fw-bold mb-3">روابط سريعة</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="index.html" class="text-white text-decoration-none"
+                  >الرئيسية</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="about.html" class="text-white text-decoration-none"
+                  >من نحن</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="products.html" class="text-white text-decoration-none"
+                  >المنتجات</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="services.html" class="text-white text-decoration-none"
+                  >شهادات الجودة</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="contact.html" class="text-white text-decoration-none"
+                  >اتصل بنا</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-4 mb-4">
+            <h5 class="fw-bold mb-3">فئات المنتجات</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="category.html" class="text-white text-decoration-none"
+                  >مبيدات الآفات</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="category.html" class="text-white text-decoration-none"
+                  >الأسمدة</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="category.html" class="text-white text-decoration-none"
+                  >البذور</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="category.html" class="text-white text-decoration-none"
+                  >المعدات الزراعية</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="category.html" class="text-white text-decoration-none"
+                  >الأعلاف</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-4 mb-4">
+            <h5 class="fw-bold mb-3">معلومات الاتصال</h5>
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <i class="fas fa-map-marker-alt text-success ms-2"></i>
+                <a href="#" class="text-white text-decoration-none"
+                  >16 الفلاح، جزيرة ميت عقبة، العجوزة، الجيزة، مصر</a
+                >
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-phone-alt text-success ms-2"></i>
+                <a href="tel:0233053601" class="text-white text-decoration-none"
+                  >0233053601</a
+                >
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-envelope text-success ms-2"></i>
+                <a
+                  href="mailto:info@kanzagroup.com.eg"
+                  class="text-white text-decoration-none"
+                  >info@kanzagroup.com.eg</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="my-4" />
+
+        <div class="row">
+          <div class="col-md-6">
+            <p class="mb-0">
+              جميع الحقوق محفوظة.© 2026 مجموعة كنزا. تم التطوير بواسطة شركة
+              <a href="https://pure-soft.com"><span>بيور سوفت</span></a>
+            </p>
+          </div>
+          <div class="col-md-6 text-start">
+            <div class="payment-methods">
+              <span class="me-2">طرق الدفع المتاحة:</span>
+              <i class="fab fa-cc-visa text-white me-2 fs-5"></i>
+              <i class="fab fa-cc-mastercard text-white me-2 fs-5"></i>
+              <i class="fab fa-cc-paypal text-white me-2 fs-5"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/20123456789" class="whatsapp-button" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="btn btn-success">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+     <script src="js/loading.js"></script>
+    <script>
+      // Filter products
+      document.addEventListener("DOMContentLoaded", function () {
+        const filterButtons = document.querySelectorAll(".filter-btn");
+        const productItems = document.querySelectorAll(".product-item");
+
+        filterButtons.forEach((button) => {
+          button.addEventListener("click", function () {
+            // Remove active class from all buttons
+            filterButtons.forEach((btn) => btn.classList.remove("active"));
+
+            // Add active class to clicked button
+            this.classList.add("active");
+
+            const filterValue = this.getAttribute("data-filter");
+
+            // Show/hide products based on filter
+            productItems.forEach((item) => {
+              if (
+                filterValue === "all" ||
+                item.getAttribute("data-category").includes(filterValue)
+              ) {
+                item.style.display = "block";
+              } else {
+                item.style.display = "none";
+              }
+            });
+          });
+        });
+
+        // Back to Top button
+        const backToTopButton = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", function () {
+          if (window.pageYOffset > 300) {
+            backToTopButton.classList.add("show");
+          } else {
+            backToTopButton.classList.remove("show");
+          }
+        });
+
+        backToTopButton.addEventListener("click", function () {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        });
+
+        // Quantity controls
+        document
+          .querySelectorAll(".quantity-controls .btn")
+          .forEach((button) => {
+            button.addEventListener("click", function () {
+              const input = this.parentNode.querySelector("input");
+              let value = parseInt(input.value);
+
+              if (this.textContent === "+") {
+                value++;
+              } else if (this.textContent === "-" && value > 1) {
+                value--;
+              }
+
+              input.value = value;
+            });
+          });
+      });
+    </script>
+  </body>
+</html>

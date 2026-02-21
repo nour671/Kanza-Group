@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سلة التسوق - مجموعة كنزا</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="./img/logo-kanza.png">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Arabic -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/kanza.css">
+    <link rel="stylesheet" href="css/cart.css">
+
+</head>
+<body>
+
+        <!-- Top Header - -->
+    <div class="top-header d-none d-lg-block py-2 text-success">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-md-4">
+            <div
+              class="d-flex align-items-center justify-content-center justify-content-md-start"
+            >
+              <span class="me-3">
+                <i class="fas fa-phone-alt me-1"></i> 0233053601
+              </span>
+              <span>
+                <i class="fas fa-envelope me-1"></i> info@kanzagroup.com.eg
+              </span>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="header-promo small">
+              <i class="fas fa-truck me-1"></i> توصيل مجاني للطلبات فوق 1000
+              جنيه
+            </div>
+          </div>
+          <div class="col-md-4 text-center text-md-end">
+            <div class="social-icons me-lg-5 pe-lg-5">
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav
+      class="navbar navbar1 logo-section navbar-expand-lg navbar-light bg-white sticky shadow-sm py-0"
+      style="z-index: 99"
+    >
+      <div class="container">
+        <!-- Logo Section -->
+
+        <div class="logo-section py-0 d-flex align-items-center">
+          <a class="navbar-brand m-0 p-0" href="index.html">
+            <img src="./img/logo-kanza.png" alt="Kanza Group" />
+          </a>
+          <div class="brand-info me-4 d-none d-lg-block">
+            <h6 class="mb-0 text-success fw-bold">مجموعة كنزا</h6>
+            <small class="text-muted">حلول زراعية متكاملة منذ 2005</small>
+          </div>
+        </div>
+        <form class="d-flex search-form mt-0">
+          <div class="input-group">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="ابحث عن منتج..."
+            />
+
+            <button class="btn btn-success" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Main Navigation -->
+    <nav
+      class="navbar navbar2 navbar-expand-lg navbar-light bg-white sticky-top shadow-sm py-3"
+      style="z-index: 90"
+    >
+      <div class="container">
+        <!-- User Actions -->
+
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="container-user d-block d-lg-none d-flex align-items-center">
+          <div class="dropdown me-3">
+            <a
+              href="#"
+              class="text-dark position-relative"
+              data-bs-toggle="dropdown"
+            >
+              <i class="fas fa-shopping-cart fs-5"></i>
+              <span class="cart-count">3</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end cart-dropdown">
+              <div class="cart-items">
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product1.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فيلد اب 48</h6>
+                    <small class="text-muted">1 × 150 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product2.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فينوزون 50% EC</h6>
+                    <small class="text-muted">2 × 200 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between mb-3">
+                <strong>الإجمالي:</strong>
+                <strong class="text-success">550 ج.م</strong>
+              </div>
+              <div class="d-grid gap-2">
+                <a href="cart.html" class="btn btn-success">عرض السلة</a>
+                <a href="checkout.html" class="btn btn-outline-success"
+                  >الدفع</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="dropdown me-3">
+            <a
+              href="#"
+              class="text-dark position-relative"
+              data-bs-toggle="dropdown"
+            >
+              <i class="fas fa-heart fs-5"></i>
+              <span class="cart-count">2</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end cart-dropdown">
+              <div class="cart-items">
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product1.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فيلد اب 48</h6>
+                    <small class="text-muted">1 × 150 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product2.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فينوزون 50% EC</h6>
+                    <small class="text-muted">2 × 200 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+              </div>
+
+              <div class="d-grid gap-2">
+                <a href="wishlist.html" class="btn btn-success">عرض المفضلة</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="dropdown me-3">
+            <a href="#" class="text-dark" data-bs-toggle="dropdown">
+              <i class="fas fa-user fs-5"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end">
+              <a class="dropdown-item" href="login.html">تسجيل الدخول</a>
+              <a class="dropdown-item" href="register.html">إنشاء حساب</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="profile.html">حسابي</a>
+              <a class="dropdown-item" href="orders.html">طلباتي</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main Menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-content w-100">
+            <ul class="navbar-nav me-auto main-menu">
+              <li class="nav-item">
+                <a class="nav-link active" href="index-kanza.html">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">من نحن</a>
+              </li>
+
+              <!-- مبيدات -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="pesticides.html" data-bs-toggle="dropdown">
+                  مبيدات زراعية
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="pesticides-products.html" >مبيدات حشرية</a></li>
+                  <li><a class="dropdown-item" href="#">مبيدات فطرية</a></li>
+                  <li><a class="dropdown-item" href="#">مبيدات قوارض</a></li>
+                  <li><a class="dropdown-item" href="#">مبيدات التربة</a></li>
+                  <li><a class="dropdown-item" href="#">مبيدات نيماتودية</a></li>
+                </ul>
+              </li>
+
+              <!-- صحة عامة -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  مبيدات الصحة العامة
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">مكافحة حشرات</a></li>
+                  <li><a class="dropdown-item" href="#">مكافحة قوارض</a></li>
+                  <li><a class="dropdown-item" href="#">مطهرات</a></li>
+                </ul>
+              </li>
+
+              <!-- أسمدة -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  أسمدة
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">أسمدة عضوية</a></li>
+                  <li><a class="dropdown-item" href="#">أسمدة كيماوية</a></li>
+                  <li><a class="dropdown-item" href="#">محفزات نمو</a></li>
+                </ul>
+              </li>
+
+              <!-- بذور -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  بذور
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">خضروات</a></li>
+                  <li><a class="dropdown-item" href="#">فاكهة</a></li>
+                </ul>
+              </li>
+              <!-- محاصيل -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  محاصيل
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">خضروات</a></li>
+                  <li><a class="dropdown-item" href="#">فاكهة</a></li>
+                  <li><a class="dropdown-item" href="#">بقوليات</a></li>
+                  <li><a class="dropdown-item" href="#">محاصيل الحقل</a></li>
+                </ul>
+              </li>
+
+              <!-- معدات -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  معدات زراعية
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">رشاشات</a></li>
+                  <li><a class="dropdown-item" href="#">أدوات يدوية</a></li>
+                </ul>
+              </li>
+
+              <!-- حلول -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  حلول متكاملة
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">حلول زراعية</a></li>
+                  <li><a class="dropdown-item" href="#">حلول مكافحة</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">شهادات الجودة</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="container-user d-none d-lg-flex align-items-center flex-row"
+        >
+          <div class="dropdown me-3">
+            <a
+              href="#"
+              class="text-dark position-relative"
+              data-bs-toggle="dropdown"
+            >
+              <i class="fas fa-shopping-cart fs-5"></i>
+              <span class="cart-count">3</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end cart-dropdown">
+              <div class="cart-items">
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product1.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فيلد اب 48</h6>
+                    <small class="text-muted">1 × 150 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product2.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فينوزون 50% EC</h6>
+                    <small class="text-muted">2 × 200 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between mb-3">
+                <strong>الإجمالي:</strong>
+                <strong class="text-success">550 ج.م</strong>
+              </div>
+              <div class="d-grid gap-2">
+                <a href="cart.html" class="btn btn-success">عرض السلة</a>
+                <a href="checkout.html" class="btn btn-outline-success"
+                  >الدفع</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="dropdown me-3">
+            <a
+              href="#"
+              class="text-dark position-relative"
+              data-bs-toggle="dropdown"
+            >
+              <i class="fas fa-heart fs-5"></i>
+              <span class="cart-count">2</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end cart-dropdown">
+              <div class="cart-items">
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product1.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فيلد اب 48</h6>
+                    <small class="text-muted">1 × 150 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+                <div class="cart-item d-flex align-items-center mb-3">
+                  <img
+                    src="img/products/product2.jpg"
+                    alt="Product"
+                    width="60"
+                  />
+                  <div class="ms-3">
+                    <h6 class="mb-0">فينوزون 50% EC</h6>
+                    <small class="text-muted">2 × 200 ج.م</small>
+                  </div>
+                  <button class="btn-close ms-auto"></button>
+                </div>
+              </div>
+
+              <div class="d-grid gap-2">
+                <a href="wishlist.html" class="btn btn-success">عرض المفضلة</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="dropdown me-3">
+            <a href="#" class="text-dark" data-bs-toggle="dropdown">
+              <i class="fas fa-user fs-5"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end">
+              <a class="dropdown-item" href="login.html">تسجيل الدخول</a>
+              <a class="dropdown-item" href="register.html">إنشاء حساب</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="profile.html">حسابي</a>
+              <a class="dropdown-item" href="orders.html">طلباتي</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Cart Header -->
+    <div class="cart-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1 class="fw-bold mb-3">سلة التسوق</h1>
+                    <p class="mb-0">استعرض منتجاتك وتأكد من طلبك قبل الإتمام</p>
+                </div>
+                <div class="col-md-4 text-start">
+                    <div class="d-flex align-items-center">
+                        <div class="me-3">
+                            <i class="fas fa-shopping-cart fa-3x text-white"></i>
+                        </div>
+                        <div>
+                            <h4 class="mb-0 text-white">3 منتجات</h4>
+                            <small class="text-white-50">في سلة التسوق</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Content -->
+    <div class="container py-4">
+        <div class="row">
+            <!-- Cart Items -->
+            <div class="col-lg-8">
+                <!-- Cart Items List -->
+                <div class="cart-items">
+                    <!-- Item 1 -->
+                    <div class="cart-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-2 col-4">
+                                <img src="./img/p3.png" alt="فيلد اب 48" class="product-image">
+                            </div>
+                            <div class="col-md-6 col-8">
+                                <h5 class="product-title">فيلد اب 48</h5>
+                                <p class="product-category mb-2">مبيدات حشرية</p>
+                                <span class="stock-status in-stock">متوفر</span>
+                            </div>
+                            <div class="col-md-4 col-12 mt-3 mt-md-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="quantity-control d-flex align-items-center">
+                                        <button class="btn btn-outline-secondary btn-sm decrease-qty">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <input type="text" class="form-control text-center mx-2" value="1" readonly>
+                                        <button class="btn btn-outline-secondary btn-sm increase-qty">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                    <div class="text-end">
+                                        <h5 class="text-success mb-1">150 ج.م</h5>
+                                        <del class="text-muted small">180 ج.م</del>
+                                    </div>
+                                    <button class="btn remove-btn">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="cart-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-2 col-4">
+                                <img src="./img/p4.png" alt="فينوزون 50% EC" class="product-image">
+                            </div>
+                            <div class="col-md-6 col-8">
+                                <h5 class="product-title">فينوزون 50% EC</h5>
+                                <p class="product-category mb-2">مبيدات حشرية</p>
+                                <span class="stock-status low-stock">كمية محدودة</span>
+                            </div>
+                            <div class="col-md-4 col-12 mt-3 mt-md-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="quantity-control d-flex align-items-center">
+                                        <button class="btn btn-outline-secondary btn-sm decrease-qty">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <input type="text" class="form-control text-center mx-2" value="2" readonly>
+                                        <button class="btn btn-outline-secondary btn-sm increase-qty">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                    <div class="text-end">
+                                        <h5 class="text-success mb-1">200 ج.م</h5>
+                                        <small class="text-muted">للعبوة</small>
+                                    </div>
+                                    <button class="btn remove-btn">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="cart-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-2 col-4">
+                                <img src="./img/p1.png" alt="كلسك 12" class="product-image">
+                            </div>
+                            <div class="col-md-6 col-8">
+                                <h5 class="product-title">كلسك 12</h5>
+                                <p class="product-category mb-2">مبيدات فطرية</p>
+                                <span class="stock-status in-stock">متوفر</span>
+                            </div>
+                            <div class="col-md-4 col-12 mt-3 mt-md-0">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="quantity-control d-flex align-items-center">
+                                        <button class="btn btn-outline-secondary btn-sm decrease-qty">
+                                            <i class="fas fa-minus"></i>
+                                        </button>
+                                        <input type="text" class="form-control text-center mx-2" value="1" readonly>
+                                        <button class="btn btn-outline-secondary btn-sm increase-qty">
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </div>
+                                    <div class="text-end">
+                                        <h5 class="text-success mb-1">180 ج.م</h5>
+                                        <del class="text-muted small">210 ج.م</del>
+                                    </div>
+                                    <button class="btn remove-btn">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Promo Code -->
+                <div class="mt-4">
+                    <div class="promo-code">
+                        <input type="text" class="form-control" placeholder="أدخل كود الخصم">
+                        <button class="btn btn-success">تطبيق الكود</button>
+                    </div>
+                    <div class="mt-2">
+                        <small class="text-muted">رمز خصم TEST10 لخصم 10% على أول طلب</small>
+                    </div>
+                </div>
+
+                <!-- Continue Shopping -->
+                <div class="continue-shopping mt-4">
+                    <h5 class="mb-3">هل تريد إضافة المزيد من المنتجات؟</h5>
+                    <a href="products.html" class="btn btn-outline-success">
+                        <i class="fas fa-store me-2"></i>استمر في التسوق
+                    </a>
+                </div>
+
+                <!-- Save for Later -->
+                <div class="save-for-later">
+                    <h5 class="mb-3">محفوظة للمستقبل</h5>
+                    <div class="save-item">
+                        <img src="./img/p2.jpeg" alt="كارمن" width="60" height="60" class="rounded me-3">
+                        <div class="flex-grow-1">
+                            <h6 class="mb-1">كارمن - بذور طماطم</h6>
+                            <small class="text-muted">75 ج.م</small>
+                        </div>
+                        <button class="btn btn-outline-success btn-sm">أضف للسلة</button>
+                        <button class="btn btn-outline-danger btn-sm me-2">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Order Summary -->
+            <div class="col-lg-4">
+                <div class="summary-card">
+                    <h4 class="mb-4">ملخص الطلب</h4>
+                    
+                    <div class="summary-item d-flex justify-content-between">
+                        <span>السعر الإجمالي</span>
+                        <span>530 ج.م</span>
+                    </div>
+                    
+                    <div class="summary-item d-flex justify-content-between">
+                        <span>خصم</span>
+                        <span class="text-success">-50 ج.م</span>
+                    </div>
+                    
+                    <div class="summary-item d-flex justify-content-between">
+                        <span>الشحن</span>
+                        <span class="text-success">مجاناً</span>
+                    </div>
+                    
+                    <div class="summary-item d-flex justify-content-between">
+                        <span>الضريبة</span>
+                        <span>53 ج.م</span>
+                    </div>
+                    
+                    <div class="summary-item d-flex justify-content-between">
+                        <span>الإجمالي</span>
+                        <span class="text-success fw-bold">533 ج.م</span>
+                    </div>
+
+                    <div class="alert alert-success mt-3">
+                        <i class="fas fa-check-circle me-2"></i>
+                        أنت توفر <strong>67 ج.م</strong> من هذا الطلب
+                    </div>
+
+                    <a href="checkout.html" class="btn btn-success btn-lg w-100 mt-3">
+                        <i class="fas fa-lock me-2"></i>إتمام الشراء
+                    </a>
+
+                    <div class="text-center mt-3">
+                        <small class="text-muted">
+                            <i class="fas fa-shield-alt me-1"></i>
+                            عملية دفع آمنة ومشفرة
+                        </small>
+                    </div>
+
+                    <div class="payment-methods mt-3 text-center">
+                        <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa" class="me-2">
+                        <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="Mastercard" class="me-2">
+                        <img src="https://img.icons8.com/color/48/000000/paypal.png" alt="PayPal">
+                    </div>
+                </div>
+
+                <!-- Delivery Info -->
+                <div class="summary-card mt-3">
+                    <h6 class="mb-3"><i class="fas fa-truck me-2"></i>معلومات التوصيل</h6>
+                    <div class="delivery-info">
+                        <div class="d-flex mb-2">
+                            <i class="fas fa-check-circle text-success me-2 mt-1"></i>
+                            <div>
+                                <small class="text-muted d-block">التوصيل المجاني متاح</small>
+                                <strong>للطلبات فوق 1000 ج.م</strong>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <i class="fas fa-clock text-warning me-2 mt-1"></i>
+                            <div>
+                                <small class="text-muted d-block">الوقت المتوقع</small>
+                                <strong>2-3 أيام عمل</strong>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <i class="fas fa-sync-alt text-info me-2 mt-1"></i>
+                            <div>
+                                <small class="text-muted d-block">سياسة الإرجاع</small>
+                                <strong>7 أيام للإرجاع</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="footer-about">
+              <img
+                src="img/logo-kanza-light.png"
+                alt="Kanza Group"
+                height="120"
+                class="mb-"
+              />
+              <p class="mb-3">
+                مجموعة كنزا هي شركة رائدة في مجال المستلزمات الزراعية والمنتجات
+                الغذائية في مصر والشرق الأوسط.
+              </p>
+              <div class="social-icons">
+                <a href="#" class="text-white me-3"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="text-white me-3"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="text-white me-3"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="text-white me-3"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 mb-4">
+            <h5 class="fw-bold mb-3">روابط سريعة</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="index.html" class="text-white text-decoration-none"
+                  >الرئيسية</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="about.html" class="text-white text-decoration-none"
+                  >من نحن</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="products.html" class="text-white text-decoration-none"
+                  >المنتجات</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="services.html" class="text-white text-decoration-none"
+                  >شهادات الجودة</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="contact.html" class="text-white text-decoration-none"
+                  >اتصل بنا</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-4 mb-4">
+            <h5 class="fw-bold mb-3">فئات المنتجات</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="category.html" class="text-white text-decoration-none"
+                  >مبيدات الآفات</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="category.html" class="text-white text-decoration-none"
+                  >الأسمدة</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="category.html" class="text-white text-decoration-none"
+                  >البذور</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="category.html" class="text-white text-decoration-none"
+                  >المعدات الزراعية</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="category.html" class="text-white text-decoration-none"
+                  >الأعلاف</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-4 mb-4">
+            <h5 class="fw-bold mb-3">معلومات الاتصال</h5>
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <i class="fas fa-map-marker-alt text-success ms-2"></i>
+                <a href="#" class="text-white text-decoration-none"
+                  >16 الفلاح، جزيرة ميت عقبة، العجوزة، الجيزة، مصر</a
+                >
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-phone-alt text-success ms-2"></i>
+                <a href="tel:0233053601" class="text-white text-decoration-none"
+                  >0233053601</a
+                >
+              </li>
+              <li class="mb-3">
+                <i class="fas fa-envelope text-success ms-2"></i>
+                <a
+                  href="mailto:info@kanzagroup.com.eg"
+                  class="text-white text-decoration-none"
+                  >info@kanzagroup.com.eg</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="my-4" />
+
+        <div class="row">
+          <div class="col-md-6">
+            <p class="mb-0">
+              جميع الحقوق محفوظة.© 2026 مجموعة كنزا. تم التطوير بواسطة شركة
+              <a href="https://pure-soft.com"><span>بيور سوفت</span></a>
+            </p>
+          </div>
+          <div class="col-md-6 text-start">
+            <div class="payment-methods">
+              <span class="me-2">طرق الدفع المتاحة:</span>
+              <i class="fab fa-cc-visa text-white me-2 fs-5"></i>
+              <i class="fab fa-cc-mastercard text-white me-2 fs-5"></i>
+              <i class="fab fa-cc-paypal text-white me-2 fs-5"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/20123456789" class="whatsapp-button" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="btn btn-success">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+        <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/kanza.js"></script>
+     <script src="js/loading.js"></script>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Quantity Controls
+            document.querySelectorAll('.increase-qty').forEach(button => {
+                button.addEventListener('click', function() {
+                    const input = this.parentNode.querySelector('input');
+                    input.value = parseInt(input.value) + 1;
+                    updateCart();
+                });
+            });
+
+            document.querySelectorAll('.decrease-qty').forEach(button => {
+                button.addEventListener('click', function() {
+                    const input = this.parentNode.querySelector('input');
+                    if (parseInt(input.value) > 1) {
+                        input.value = parseInt(input.value) - 1;
+                        updateCart();
+                    }
+                });
+            });
+
+            // Remove Item
+            document.querySelectorAll('.remove-btn').forEach(button => {
+                button.addEventListener('click', function() {
+                    const cartItem = this.closest('.cart-item');
+                    cartItem.style.animation = 'fadeIn 0.3s ease reverse';
+                    setTimeout(() => {
+                        cartItem.remove();
+                        updateCart();
+                    }, 300);
+                });
+            });
+
+            // Promo Code
+            const promoBtn = document.querySelector('.promo-code .btn');
+            promoBtn.addEventListener('click', function() {
+                const promoInput = this.parentNode.querySelector('input');
+                if (promoInput.value.trim() === 'TEST10') {
+                    alert('تم تطبيق كود الخصم بنجاح! خصم 10% على الطلب.');
+                    promoInput.value = '';
+                    updateCart();
+                } else {
+                    alert('كود الخصم غير صحيح. حاول مرة أخرى.');
+                }
+            });
+
+            // Update Cart Function
+            function updateCart() {
+               
+                console.log('Cart updated');
+            }
+        });
+    </script>
+</body>
+</html>
